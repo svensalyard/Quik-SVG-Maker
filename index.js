@@ -32,3 +32,16 @@ const questions = [{
     message: 'Please enter a color for your shape (name or hexidecimal).',
     name: 'shapecolor'
 }];
+
+const renderSVG = async (responses) => {
+	fs.writeFile('logo.svg', shapes(responses), (err) => err && console.error(err));
+};
+
+const init = async () => {
+	const responses = await inquirer.prompt(questions);
+	var shape = responses.shape;
+	await renderSVG(responses);
+	console.log('Generated logo.svg');
+};
+
+init();
