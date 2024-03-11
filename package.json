@@ -1,0 +1,26 @@
+{
+  "name": "quik-svg-maker",
+  "version": "1.0.0",
+  "description": "A quik svg logo generator.",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/svensalyard/Quik-SVG-Maker.git"
+  },
+  "keywords": [
+    "svg"
+  ],
+  "author": "Sven Salyard",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/svensalyard/Quik-SVG-Maker/issues"
+  },
+  "homepage": "https://github.com/svensalyard/Quik-SVG-Maker#readme"
+}
