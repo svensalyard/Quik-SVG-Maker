@@ -1,0 +1,8 @@
+
+	<svg version="1.1" width="300" height="200">
+
+	<rect x="85" y="40" width="130" height="130" fill="red" />
+
+  <text x="150" y="125" font-size="60" text-anchor="middle" fill="black">SES</text>
+
+</svg>
